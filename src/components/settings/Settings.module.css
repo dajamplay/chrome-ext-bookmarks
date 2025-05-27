@@ -1,0 +1,65 @@
+.container {
+    position: fixed;
+    right: -400px;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    transition: right 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(34, 60, 80, 0.55);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(34, 60, 80, 0.55);
+    box-shadow: 0px 0px 12px -2px rgba(34, 60, 80, 0.55);
+    padding: 15px;
+}
+
+.wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    transition: visibility 0.5s ease;
+}
+
+.overlay {
+    background-color: rgba(51, 51, 51, 0.3);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.inputMargin {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.settingsButtonContainer {
+    height: 46px;
+    width: 46px;
+    border-radius: 23px;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.64);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    transition: transform 1s ease;
+}
+
+.settingsButtonContainer:hover {
+    transform: rotate(180deg);
+}
+
+.settingsButtonContainer svg {
+    width: 40px;
+    height: 40px;
+    color: #333;
+}
