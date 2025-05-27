@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Пример расширения",
+  "name": "Закладки Google Chrome",
   "version": "1.0",
-  "description": "Это пример расширения для Google Chrome",
+  "description": "Расширение для закладок Google Chrome",
   "permissions": [
     "bookmarks", "tabs"
   ],
